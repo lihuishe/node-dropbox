@@ -2,28 +2,28 @@
 
 This is a basic Dropbox clone to sync files across multiple remote folders.
 
-Time spent: `<Number of hours spent>`
+Time spent: 20
 
 ## Features
 
 ### Required
 
 - [x] Completed Requireds marked with `[x]`
-- [ ] Walkthrough Gif embedded in README
-- [ ] README `Time spent:` includes the number of hours spent on the assignment
-- [ ] Client can make GET requests to get file or directory contents
-- [ ] Client can download a directory as an archive
-- [ ] Client can make HEAD request to get just the GET headers 
-- [ ] Client can make PUT requests to create new directories and files with content
-- [ ] Client can make POST requests to update the contents of a file
-- [ ] Client can make DELETE requests to delete files and folders
-- [ ] Server will serve from `--dir` or cwd as root
-- [ ] Server will sync `HTTP` modifications over TCP to the Client
-- [ ] Server will sync watched file modifications (e.g., `fs.watch`) over TCP to the Client
+- [x] Walkthrough Gif embedded in README
+- [x] README `Time spent:` includes the number of hours spent on the assignment
+- [x] Client can make GET requests to get file or directory contents
+- [x] Client can download a directory as an archive
+- [x] Client can make HEAD request to get just the GET headers 
+- [x] Client can make PUT requests to create new directories and files with content
+- [x] Client can make POST requests to update the contents of a file
+- [x] Client can make DELETE requests to delete files and folders
+- [x] Server will serve from `--dir` or cwd as root
+- [x] Server will sync `HTTP` modifications over TCP to the Client
+- [x] Server will sync watched file modifications (e.g., `fs.watch`) over TCP to the Client
 
 ### Optional
 
-- [ ] Client supports multiple connected clients
+- [x] Client supports multiple connected clients
 - [ ] Client does not need to make additional `GET` request on `"write"` update
 - [ ] Client and User will be redirected from HTTP to HTTPS
 - [ ] Client will sync back to Server over TCP
@@ -34,9 +34,8 @@ Time spent: `<Number of hours spent>`
 
 
 ## Walkthrough
-
-`<Add your Walkthrough Gif here (by updating the image URL)>`
-![Video Walkthrough](...)
+![alt tag](https://github.com/lihuishe/node-dropbox/raw/master/s2-1.gif)
+![alt tag](https://github.com/lihuishe/node-dropbox/raw/master/s2-2.gif)
 
 
 
